@@ -2492,6 +2492,14 @@ ul.blog_pagination li a:hover {
 .clear.show {
 	visibility: visible;
 }
-.form-select {
+.form-select.form-select-sm {
 	width: fit-content;
+	background-color: transparent;
+	color: #fff;
+	opacity: 0.7;
+	transition: all 0.5s;
+}
+.form-select.form-select-sm:hover {
+	opacity: 1;
+	transition: all 0.5s;
 }
