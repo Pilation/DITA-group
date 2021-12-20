@@ -2492,3 +2492,6 @@ ul.blog_pagination li a:hover {
 .clear.show {
 	visibility: visible;
 }
+.form-select {
+	width: fit-content;
+}

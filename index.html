@@ -54,7 +54,6 @@
 
 <body data-spy="scroll" data-offset="80">
 
-
 	<!-- START PRELOADER -->
 	<div class="preloader">
 		<div class="spinner">
@@ -84,7 +83,15 @@
 					<li class="nav-item"><a class="nav-link" href="#service">Преимущества</a></li>
 					<li class="nav-item"><a class="nav-link" href="#team">Команда</a></li>
 					<li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+					<li class="nav-item">
+						<select class="form-select form-select-sm" id="select-lang" style="margin-top: 5px;">
+							<option selected value="ru">RU</option>
+							<option value="ua">UA</option>
+							<option value="ru">EN</option>
+						</select>
+					</li>
 				</ul>
+
 				<!--END NAVBAR NAV-->
 			</div>
 			<!--END COLLAPSE-->
@@ -126,6 +133,12 @@
 		<!--- END CONTAINER -->
 	</section>
 	<!-- END  HOME -->
+
+	<select name="select-lang" id="select-lang">
+		<option value="ru" selected>RU</option>
+		<option value="en">EN</option>
+		<option value="ua">UA</option>
+	</select>
 
 	<!-- START ABOUT -->
 	<section id="about_us" class="about_us section-padding">
@@ -256,10 +269,10 @@
 							1С Розница для Украины <br>
 							<br>
 							<b>Полный комплекс BI решений:</b> <br>
-							BI аналитика: PowerBI, Google Data Studio <br>
-							Database Architect <br>
-							OLAP кубы <br>
+							PowerBI, Google Data Studio <br>
+							Database Architecture <br>
 							Data Science <br>
+							OLAP cubes <br>
 						</p>
 					</div>
 					<div class="about_btn">
@@ -552,8 +565,6 @@
 	</section>
 	<!-- END NEWSLATTER -->
 
-
-
 	<!-- START ADDRESS -->
 	<section id="address" class="address_area section-padding" style="background: #3F29B0; ">
 		<div class="container">
@@ -565,7 +576,8 @@
 						<p>Кейсы и информация
 							о нас </p>
 						<br>
-						<a class="upload" href="https://dita-group.com/DITA_group_Your_Digital_Solutions_Partner.pdf"
+						<a class="upload"
+							href="https://dita-group.com/DITA_group_Your_Key_Partner_in_Digital_Solutions.pdf"
 							target="_blank">Загрузить</a>
 					</div>
 				</div><!-- END COL  -->
