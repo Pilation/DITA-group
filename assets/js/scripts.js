@@ -141,12 +141,10 @@ langEl.addEventListener('change', (event) => {
 	switch (event.target.value) {
 		case `ua`:
 			document.location.replace('https://dita-group.com/ua.html');
-			// window.open('https://dita-group.com/ua.html')
 			break;
 		case `en`:
-			//Инструкции, соответствующие value2
 			break;
+		case 'ru':
+			document.location.replace(`https://dita-group.com`)
 	}
-	// document.location.replace('https://dita-group.com/');
-	// huy = event.target.value;
 });

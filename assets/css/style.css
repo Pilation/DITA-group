@@ -2503,3 +2503,22 @@ ul.blog_pagination li a:hover {
 	opacity: 1;
 	transition: all 0.5s;
 }
+
+@media (max-width: 1400px) {
+	.navbar-custom .navbar-nav li a {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1200px) {
+	.navbar-custom .navbar-nav li a {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.navbar-custom .navbar-nav li a {
+		font-size: 16px;
+	}
+	.form-select.form-select-sm {
+		margin: 0 5px;
+	}
+}
