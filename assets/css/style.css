@@ -2504,7 +2504,7 @@ ul.blog_pagination li a:hover {
 	transition: all 0.5s;
 }
 select.form-select.form-select-sm option {
-	background: transparent !important;
+	background: #0a0c27 !important;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
