@@ -2504,21 +2504,8 @@ ul.blog_pagination li a:hover {
 	transition: all 0.5s;
 }
 select.form-select.form-select-sm option {
-	background: green !important;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-}
-select.form-select.form-select-sm option [value="ru"] {
-	background: black !important;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-}
-select.form-select.form-select-sm option [value="en"] {
-	background: yellow !important;
-}
-select.form-select.form-select-sm option [value="ua"] {
 	background: transparent !important;
-}
-select option[value="1"] {
-	background: rgba(100, 100, 100, 0.3);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 1400px) {
